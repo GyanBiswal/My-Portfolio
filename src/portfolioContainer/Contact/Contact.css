@@ -1,0 +1,159 @@
+
+.contact-container {
+    background-image: url('../../assets/Home/rect.png'); 
+    background-size: cover; /* Cover the entire container with the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    padding: 50px; /* Add some padding for spacing */
+    text-align: center; /* Center-align the content */
+    height: 100vh; /* Set the height to fill the viewport vertically */
+}
+
+.contact-background {
+    color: white; /* Text color on top of the background */
+    padding: 40px; /* Add padding for better visibility of text */
+}
+
+.contact-details{
+    background-color: black;
+    color: white;
+    width: 320px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 800px;
+    padding: 50px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Github{
+    background-color: #6cc644;
+    display: flex;
+    justify-content: center;
+    margin: 15px 20px 0px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.Github a{
+    color: white;
+    font-size: 20px;
+    padding: 4px 4px 4px 4px;
+    text-decoration: none;
+}
+.Linkedin{
+    background-color: #0072b1;
+    display: flex;
+    justify-content: center;
+    margin: 15px 20px 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.Linkedin a{
+    color: white;
+    font-size: 20px;
+    font-size: 20px;
+    padding: 4px 4px 4px 4px;
+    text-decoration: none;
+}
+.Instagram{
+    background-color: #d62976;
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.Instagram a{
+    color: white;
+    font-size: 20px;
+    font-size: 20px;
+    padding: 4px 4px 4px 4px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1110px) {
+    .contact-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 350px;
+        width: 300px;
+        height: 300px;
+    }
+    .contact-details h6{
+        font-size: 10px;
+    }
+
+}
+
+/* Media Query for max-width: 910px */
+@media screen and (max-width: 910px) {
+    .contact-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:0px;
+        width: 300px;
+        height: 300px;
+    }
+    .contact-details h6{
+        font-size: 10px;
+    }
+}
+
+/* Media Query for max-width: 810px */
+@media screen and (max-width: 820px) {
+    .contact-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:220px;
+        width: 300px;
+        height: 300px;
+    }
+    .contact-details h6{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .projects-img img {
+        max-width: 100%; /* Adjust image width for smaller screens */
+    }
+}
+
+/* Media Query for max-width: 375px */
+@media screen and (max-width: 420px) {
+    .contact-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:5px;
+        width: 300px;
+        height: 300px;
+    }
+    .contact-details h6{
+        font-size: 20px;
+    }
+}@media screen and (max-width: 280px) {
+    .contact-background h1{
+        font-size: 30px;
+    }
+    .contact-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left:-30px;
+        width: 250px;
+        height: 300px;
+    }
+    .contact-details h6{
+        font-size: 15px;
+    }
+}
+
+/*
+
+EDUCR-GDSC-C1::76d53VguVGj9DaBJSnwGKA
+
+*/

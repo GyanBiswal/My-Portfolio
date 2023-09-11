@@ -1,0 +1,254 @@
+.about-container{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    height: max-content;
+}
+.about-header{
+    text-align: center;
+    padding: 50px;
+    margin-top: 200px;
+}
+.about-body{
+    margin-left: 140px;
+    font-size: 50px;
+}
+.text-content{
+    display: flex;
+    flex-direction: row;
+    font-size: 90px;
+    /* writing-mode: vertical-lr; */
+}
+.text-content h1{
+    font-size: 90px;
+    display: flex;
+    text-align: center;
+    margin-top: 80px;
+}
+.text-content img{
+    width: 500px;
+    display: flex;
+}
+
+.body-img-background {
+    /* background-image: url(../../assets/Home/gyanLogo2.png); */
+    background-repeat: no-repeat;
+    width: 400px; /* Adjust the width to your preference */
+    height: 400px; /* Adjust the height to your preference */
+    margin-left: 600px; /* Add some spacing between the image and paragraphs */
+    margin-top: -400px;
+}
+.activity {
+    display: flex; /* Use flexbox to arrange images horizontally */
+    /* justify-content: center; */
+    align-items: center; /* Vertically center images within the container */
+    margin-top: 60px;
+}
+.activity img:hover{
+    /* box-shadow: #43b1dd 0px 5px 15px; */
+    transform: scale(1.2);
+}
+.activity img {
+    width: 200px; /* Set the desired width for each image */
+    height: 200px; /* Set the desired height for each image */
+    margin: 20px 20px; /* Create spacing between images (adjust as needed) */
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.activity h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+@media screen and (max-width: 1110px) {
+    .text-content{
+        display: flex;
+        /* flex-direction: row; */
+        font-size: 90px;
+        /* writing-mode: vertical-lr; */
+    }
+    .text-content{
+        max-width: 550px;
+        font-size: 40px;
+        margin-left:100px;
+        
+    }
+    .activity {
+        display: flex;
+        flex-direction: column; /* Display images and info in a vertical order */
+        align-items: center; /* Center horizontally */
+        text-align: center;
+        height: auto;
+        /* width: 500px; */
+
+    }
+
+    .activity img{
+        max-width: 400px;
+        height: auto; /* Maintain aspect ratio */
+        margin: 20px; /* Adjust margin for spacing */
+        margin-left: -80px;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-content h1{
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        margin-top: 80px;
+        max-width: 20px;
+    }
+    .text-content img{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        margin-right: 20px;
+    }
+
+}
+
+/* Media Query for max-width: 910px */
+@media screen and (max-width: 910px) {
+    .text-content{
+        max-width: 550px;
+        font-size: 30px;
+        margin-left:100px;
+        
+    }
+
+    .activity {
+        display: flex;
+        flex-direction: column; /* Display images and info in a vertical order */
+        align-items: center; /* Center horizontally */
+        text-align: center;
+        height: auto;
+        /* width: 500px; */
+
+    }
+    
+    .activity img{
+        max-width: 400px;
+        height: auto; /* Maintain aspect ratio */
+        margin: 20px 0; /* Adjust margin for spacing */
+        justify-content: center;
+        align-items: center;
+    }
+    .body-img-background{
+        margin-left:320px;
+        height: 500px;
+        width: 500px;
+    }
+}
+
+/* Media Query for max-width: 810px */
+@media screen and (max-width: 810px) {
+    .text-content{
+        max-width: 550px;
+        font-size: 30px;
+        margin-left:30px;
+        
+    }
+
+    .activity {
+        display: flex;
+        flex-direction: column; /* Display images and info in a vertical order */
+        align-items: center; /* Center horizontally */
+        text-align: center;
+        height: auto;
+        /* width: 500px; */
+
+    }
+    
+    .activity img{
+        max-width: 400px;
+        height: auto; /* Maintain aspect ratio */
+        margin: 20px 0; /* Adjust margin for spacing */
+        justify-content: center;
+        align-items: center;
+    }
+    .body-img-background{
+        margin-left:240px;
+        height: 400px;
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .text-content{
+        max-width: 230px;
+        font-size: 20px;
+        margin-left:30px;
+        
+    }
+    .text-content h1{
+        margin-top: 50px;
+    }
+    .activity img{
+        max-width: 200px;
+        height: auto; /* Maintain aspect ratio */
+        margin: 20px 0; /* Adjust margin for spacing */
+        justify-content: center;
+        align-items: center;
+        margin-left: -140px;
+    }
+    .activity h2{
+        margin-right: 130px;
+    }
+}
+
+/* Media Query for max-width: 375px */
+@media screen and (max-width: 420px) {
+    .about-header h1{
+        font-size: 40px;
+    }
+    .text-content{
+        max-width: 350px;
+        font-size: 4px;
+        margin-left:-120px;
+        
+    }
+    .text-content h1{
+        font-size: 20px;
+        margin-top: 45px;
+        margin-left: -40px;
+    }
+    .text-content img{
+        width: 200px;
+        height: 200px;
+        margin-left: 10px;
+    }
+    .activity img{
+        max-width: 200px;
+        height: auto; /* Maintain aspect ratio */
+        margin: 20px 0; /* Adjust margin for spacing */
+        justify-content: center;
+        align-items: center;
+        margin-right: 140px;
+    }
+    .activity h2{
+        margin-right: 130px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .projects-img {
+        flex-direction: column; /* Display images and info in a vertical order */
+        align-items: center; /* Center horizontally */
+    }
+
+    .projects-img img {
+        width: 100%; /* Make images 100% width to fit smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        margin: 20px 0; /* Adjust margin for spacing */
+    }
+    
+    .projects-img p {
+        max-width: 100%; /* Allow text to take full width on smaller screens */
+    }
+}
+
